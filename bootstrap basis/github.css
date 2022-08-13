@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: o;
+}
+nav{
+    border: 1px solid rgb(231, 209, 7);
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+}
+nav input{
+    padding: 4px 15px;
+}
+ul{
+    list-style-type: none;
+    /* border: 1px solid blue; */
+    flex: 1;
+    text-align: right;
+}
+li{
+    /* border: 1px solid yellowgreen; */
+    display: inline-block;
+    margin-right: 15px;
+}
+nav button{
+    font-size: 13px;
+    padding: 4px 8px;
+    background-color: transparent;
+    border-radius: 8px;  
+}
+h3{
+    font-size: 25px;
+    margin-right: 20px;
+}
+/* The main body Section */
+main{
+    display: flex;
+    background-color: black;
+    background-image: url(images/9b4bc61dd80df4a646d224f803fb155b.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+    padding: 50px 100px;
+    
+}
+.text-col{
+    flex-basis: 50%;
+}
+.form-col{
+    flex-basis: 50%;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    margin: 100px 0px;
+}
+a{
+    color: rgb(7, 39, 223);
+    text-decoration: none;
+}
+form{
+    width: 70%;
+    margin-left: 70px;
+
+}
+
+    
+
+
+form input{
+    width: 100%;
+    margin: 10px 0px;
+    /* margin-left: 70px; */
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+form button{
+    width: 100%;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+    border: none;
+}
+
+ /* The footer section */
+ footer{
+    text-align: center;
+    margin-top: 80px;
+ }
+ footer{
+    font-size: 30px;
+    font-weight: 500;
+ }
+ 
+    
